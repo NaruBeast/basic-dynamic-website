@@ -16,7 +16,7 @@ myImage.onclick = function(){
   }
 }
 
-//using variable 's' to change src.
+//using variable 's' to change src. Doesn't work
 var myHeading = document.querySelector('h1');
 myHeading.onclick = function(){
   myHeading.textContent = 'Hello world!';
